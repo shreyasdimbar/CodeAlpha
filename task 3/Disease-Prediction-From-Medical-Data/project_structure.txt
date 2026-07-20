@@ -1,0 +1,30 @@
+Disease-Prediction-From-Medical-Data/
+
+This file explains the project hierarchy:
+
+- data/
+  Stores the input dataset. Place the CSV file at data/heart_disease.csv.
+  The .gitkeep file keeps the folder in version control even when it is empty.
+
+- outputs/
+  Stores generated artifacts such as the confusion matrix and feature importance images.
+  The .gitkeep file keeps the folder in version control even when it is empty.
+
+- model.py
+  Main machine learning script. It loads the dataset, handles missing values,
+  encodes categorical features, splits the data, trains Logistic Regression,
+  SVM, Random Forest, and XGBoost models, evaluates them, prints a comparison
+  table, saves plots, and stores the trained Random Forest model.
+
+- README.md
+  Project documentation with overview, objective, setup instructions, model details,
+  and usage guidance.
+
+- requirements.txt
+  Lists the Python packages required to run the project.
+
+- .gitignore
+  Excludes Python cache files, virtual environments, generated outputs, and the saved model.
+
+- LICENSE
+  Contains the MIT License for open-source usage.
