@@ -1,0 +1,28 @@
+Handwritten-Character-Recognition/
+
+This file explains the project hierarchy:
+
+- data/
+  Stores the dataset-related files if needed. The .gitkeep file keeps the folder
+  in version control even when it is empty.
+
+- outputs/
+  Stores generated artifacts such as the sample prediction image.
+  The .gitkeep file keeps the folder in version control even when it is empty.
+
+- model.py
+  Main deep learning script. It loads MNIST, normalizes images, reshapes them
+  for CNN input, builds and trains the model, evaluates accuracy, prints the
+  results, saves the trained model, and creates prediction visualizations.
+
+- README.md
+  Project documentation with overview, setup instructions, model details, and usage.
+
+- requirements.txt
+  Lists the Python packages required to run the project.
+
+- .gitignore
+  Excludes Python cache files, generated model files, output images, and virtual environments.
+
+- LICENSE
+  Contains the MIT License for open-source usage.
