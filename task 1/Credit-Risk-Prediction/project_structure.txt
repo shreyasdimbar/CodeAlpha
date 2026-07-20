@@ -1,0 +1,28 @@
+Credit-Risk-Prediction/
+
+This file explains the project hierarchy:
+
+- data/
+  Stores the input dataset. Place the CSV file at data/german_credit_data.csv.
+  The .gitkeep file keeps the folder in version control even when it is empty.
+
+- outputs/
+  Stores generated artifacts such as feature importance charts.
+  The .gitkeep file keeps the folder in version control even when it is empty.
+
+- model.py
+  Main machine learning script. It loads data, preprocesses features, trains
+  Logistic Regression, Decision Tree, and Random Forest models, evaluates them,
+  and saves the feature importance plot.
+
+- requirements.txt
+  Lists the Python packages needed to run the project.
+
+- README.md
+  Provides the project overview, setup instructions, model details, and usage guide.
+
+- .gitignore
+  Excludes Python cache files, virtual environments, and generated artifacts.
+
+- LICENSE
+  Contains the MIT License for open-source use.
